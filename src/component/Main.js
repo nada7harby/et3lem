@@ -11,7 +11,7 @@ function Main() {
           <div className="row justify-content-between">
             <div className="col-lg-9 main-left">
               <div className="row justify-content-aroundH">
-                <div className="col-4 content">
+                <div className="col-lg-4 col-sm-4 content">
                   <h4> Book club</h4>
                   <h1>Et3lem</h1>
                   <p>
@@ -20,7 +20,7 @@ function Main() {
                   </p>
                   <button className="btn"> More</button>
                 </div>
-                <div className="col-7 img">
+                <div className="col-lg-7 col-sm-7 img">
                   <img src={books} alt="img" />
                 </div>
               </div>
