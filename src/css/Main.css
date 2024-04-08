@@ -48,10 +48,10 @@ button.btn {
   position: absolute;
 }
 .main-right.one img {
-  right: -12px;
-  bottom: -16px;
-  transform: rotate(-45deg);
-  overflow: hidden;
+ right: 1px;
+    bottom: -24px;
+    transform: rotate(16deg);
+    overflow: hidden;
 }
 .main-right button {
   position: absolute;
