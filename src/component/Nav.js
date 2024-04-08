@@ -12,7 +12,7 @@ function BasicExample() {
       <div className="container">
         <Link className="navbar-brand" to="/">
           {" "}
-          {/* <img src={logo} alt="img" className="logo" /> */}
+          <span>Et3lem</span>
         </Link>
 
         <button
