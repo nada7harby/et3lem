@@ -1,0 +1,85 @@
+p ,h1,h2,h3,h4,h5,h6{
+               font-family: cursive;
+}
+.main {
+  padding-top: 60px;
+}
+button.btn{
+               background-color: #025071;
+               color: #fff;
+}
+.main-left {
+  background-color: rgba(66, 124, 210, 0.12);
+  margin: 10px 0;
+  border-radius: 20px;
+  padding: 20px;
+  overflow: hidden;
+}
+.main-left .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-left .content h1{
+               font-size: 77px;
+    color: #025071;
+}
+.main-left .content h4{
+               color: #9fa9b3;
+}
+.main-right {
+  background-color: rgba(66, 124, 210, 0.12);
+  position: relative;
+  overflow: hidden;
+  height: 190px;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.main-right img {
+  width: 117px;
+  position: absolute;
+}
+.main-right.one img {
+  right: -12px;
+  bottom: -16px;
+  transform: rotate(-45deg);
+  overflow: hidden;
+}
+.main-right button {
+  position: absolute;
+  bottom: 20px;
+}
+
+.main-right.all .images {
+  position: absolute;
+  bottom: 118px;
+  right: 124px;
+  transform: rotate(-24deg);
+}
+.main-right.all .images .f {
+  transform: rotate(-37deg);
+  left: -58px;
+  top: 12px;
+}
+.main-right.all .images .s {
+  transform: rotate(-18deg);
+  left: -25px;
+  top: -6px;
+}
+.main-right.all .images .t {
+  transform: rotate(-16deg);
+  left: 18px;
+}
+.main-right.all button {
+  bottom: 50px;
+}
+@media (max-width: 1025px) {
+  .book-main {
+    display: none;
+  }
+  .book-main > .row {
+    justify-content: center;
+  }
+}
