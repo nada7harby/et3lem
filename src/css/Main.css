@@ -1,12 +1,18 @@
-p ,h1,h2,h3,h4,h5,h6{
-               font-family: cursive;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: cursive;
 }
 .main {
   padding-top: 60px;
 }
-button.btn{
-               background-color: #025071;
-               color: #fff;
+button.btn {
+  background-color: #025071;
+  color: #fff;
 }
 .main-left {
   background-color: rgba(66, 124, 210, 0.12);
@@ -20,12 +26,12 @@ button.btn{
   flex-direction: column;
   justify-content: center;
 }
-.main-left .content h1{
-               font-size: 77px;
-    color: #025071;
+.main-left .content h1 {
+  font-size: 77px;
+  color: #025071;
 }
-.main-left .content h4{
-               color: #9fa9b3;
+.main-left .content h4 {
+  color: #9fa9b3;
 }
 .main-right {
   background-color: rgba(66, 124, 210, 0.12);
@@ -81,5 +87,14 @@ button.btn{
   }
   .book-main > .row {
     justify-content: center;
+  }
+}
+@media (max-width: 783px) {
+  .main-left img {
+    width: 100%;
+    padding: 14px 0;
+  }
+  .main-left{
+               margin: 10px;
   }
 }
