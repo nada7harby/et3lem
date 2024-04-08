@@ -3,6 +3,8 @@ import bJava from "../img/bookJAVA.jpg";
 import c from "../img/c++.jpg";
 import c2 from "../img/c++2.jpg";
 import books from "../img/b.png";
+import Field from "../component/Data"
+import { Link } from "react-router-dom";
 function Main() {
   return (
     <>
@@ -43,6 +45,20 @@ function Main() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="container mt-5">
+          <h1 className="Field-word">our Fields</h1>
+          <div className="row justify-content-around">
+            {Field.map((ele)=>{
+              return(
+                <>
+                <div className="col-lg-2 col-sm-2 col-5 field">
+               <Link to={ele.link}> <h4> { ele.name}</h4></Link>
+                </div>
+                </>
+              )
+            })}
           </div>
         </div>
       </div>
