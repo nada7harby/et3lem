@@ -48,10 +48,10 @@ button.btn {
   position: absolute;
 }
 .main-right.one img {
- right: 1px;
-    bottom: -24px;
-    transform: rotate(16deg);
-    overflow: hidden;
+  right: 1px;
+  bottom: -24px;
+  transform: rotate(16deg);
+  overflow: hidden;
 }
 .main-right button {
   position: absolute;
@@ -81,6 +81,48 @@ button.btn {
 .main-right.all button {
   bottom: 50px;
 }
+.main a {
+  text-decoration: none;
+  color: #000;
+}
+.field {
+  background-image: radial-gradient(
+    68.56% 70.56% at 47% 50%,
+    #fff 0,
+    #025071 100%
+  );
+  border-radius: 50%;
+  padding: 43px;
+  font-size: 24px;
+  text-align: center;
+  margin: 10px 0;
+}
+.Field-word {
+  padding: 25px 0;
+  text-align: center;
+  position: relative;
+}
+.Field-word::after {
+  content: "";
+  position: absolute;
+  width: 20%;
+  background-color: #025071;
+  height: 4px;
+  top: 85%;
+  left: 40.5%;
+  border-radius: 12px;
+}
+.Field-word::before {
+  content: "";
+  position: absolute;
+  width: 18%;
+  background-color: #025071;
+  height: 4px;
+  top: 98%;
+  left: 42%;
+  border-radius: 12px;
+}
+
 @media (max-width: 1025px) {
   .book-main {
     display: none;
@@ -89,12 +131,17 @@ button.btn {
     justify-content: center;
   }
 }
+
 @media (max-width: 783px) {
   .main-left img {
     width: 100%;
     padding: 14px 0;
   }
-  .main-left{
-               margin: 10px;
+  .main-left {
+    margin: 10px;
+  }
+  .field {
+    padding: 16px;
+    font-size: 18px;
   }
 }
