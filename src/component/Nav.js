@@ -5,8 +5,6 @@ import { Link } from "react-router-dom";
 import "../css/Nav.css";
 
 function BasicExample() {
-
-
   return (
     <nav className="navbar navbar-expand-lg  ">
       <div className="container">
@@ -37,9 +35,9 @@ function BasicExample() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/AllProduct">
+              <Link className="nav-link" to="/Books">
                 {" "}
-                Products
+                Books
               </Link>
             </li>
             <li className="nav-item">
@@ -59,7 +57,6 @@ function BasicExample() {
             {" "}
             <div className="Cart-price">
               <i className="fa-solid fa-cart-shopping"></i>
-            
             </div>
           </Link>
           <Link to="/FavProduct" className="cart-link">
