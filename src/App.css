@@ -30,7 +30,8 @@ h3,
 h4,
 h5,
 h6 ,span{
-  font-family: cursive;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
 }
 .App-link {
   color: #61dafb;
