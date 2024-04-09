@@ -20,11 +20,11 @@ nav.navbar {
 }
 .navbar-collapse ul li .nav-link {
   color: #fff;
-  font-family: cursive;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .navbar-collapse ul li .nav-link.active {
   color: #fff;
-  font-family: cursive;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .cart-link {
   font-size: 18px;

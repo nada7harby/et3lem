@@ -5,7 +5,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: cursive;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .main {
   padding-top: 60px;
@@ -101,6 +101,7 @@ button.btn {
   padding: 25px 0;
   text-align: center;
   position: relative;
+  color: #025071;
 }
 .Field-word::after {
   content: "";
