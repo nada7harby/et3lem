@@ -84,40 +84,38 @@ export default function Swiperr() {
   ];
   return (
     <>
-     <div className=" main-swiper">
-      <h1>Most Important Books</h1>
-      <Swiper 
-        slidesPerView={window.innerWidth < 400 ? "auto" : 4}
-        spaceBetween={30}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination]}
-        className="mySwiper"
-      >
-        {Books.map((ele) => {
-          return (
-            <>
-             
-                <SwiperSlide  key={ele.id}>
+      <div className=" main-swiper">
+        <h1>Most Important Books</h1>
+        <Swiper
+          slidesPerView={window.innerWidth < 400 ? "auto" : 4}
+          spaceBetween={30}
+          pagination={{
+            clickable: true,
+          }}
+          modules={[Pagination]}
+          className="mySwiper"
+        >
+          {Books.map((ele) => {
+            return (
+              <>
+                <SwiperSlide key={ele.id}>
                   <div className="card">
                     <img className="card-img-top" src={ele.image} alt="Card " />
                     <div className="card-body">
                       <h5 className="card-title">{ele.name}</h5>
 
-                      <Link to="/book">
-                        <a className="btn " href="##">
-                          More
+                      <Link to="https://drive.google.com/drive/u/0/folders/1rW7t8bwTi8WSO-ZV5utqYvh3ZaTRsNlW">
+                        <a className="btn " href="https://drive.google.com/drive/u/0/folders/1rW7t8bwTi8WSO-ZV5utqYvh3ZaTRsNlW">
+                          Read
                         </a>
                       </Link>
                     </div>
                   </div>
                 </SwiperSlide>
-              
-            </>
-          );
-        })}
-      </Swiper>
+              </>
+            );
+          })}
+        </Swiper>
       </div>
     </>
   );
